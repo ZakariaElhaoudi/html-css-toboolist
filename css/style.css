@@ -1,0 +1,44 @@
+/* regole generali pagina  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* regole header  */
+
+header{
+    width: 100%;
+    height: auto;
+    background-color: white;
+
+} 
+
+#text-logo{
+    font-size: 35px;
+    font-weight: 800;
+    
+}
+
+/* regole main */
+
+#contenitore{
+    margin: 10% auto 5% ;
+    width: 80%;
+    height: 100vh ;
+    background-color: white;
+}
+
+/* regole section 1  */
+
+#all-button{
+    width: 100%;
+    height: 50px;
+    border-bottom: solid aliceblue;
+    border-spacing: 0;
+    
+}
