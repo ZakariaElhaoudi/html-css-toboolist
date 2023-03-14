@@ -1,7 +1,7 @@
 /* regole generali pagina  */
 *{
     margin: 0;
-    padding: 0;
+    
     box-sizing: border-box;
 }
 
@@ -13,14 +13,25 @@ body{
 
 header{
     width: 100%;
-    height: auto;
+    height: 100px;
     background-color: white;
 
 } 
 
+#img{
+    width: 80px;
+    line-height: 80px;
+    vertical-align: middle;
+
+
+}
+
 #text-logo{
-    font-size: 35px;
+    display: inline-block;
+    font-size: 60px;
     font-weight: 800;
+    line-height: 60px;
+    vertical-align: middle;
     
 }
 
@@ -40,5 +51,55 @@ header{
     height: 50px;
     border-bottom: solid aliceblue;
     border-spacing: 0;
+
     
 }
+
+.button {
+    border: solid 2px lightgrey;
+    border-radius: 5px;
+    color: lightgrey;
+    font-size: 12px;
+    height: 30px;
+    width: 100px;
+    line-height: 30px;
+    vertical-align: middle;
+    
+}
+
+.blue{
+  
+    background-color: #007fff;
+    color: white;
+}
+
+/* regole section 2 */
+
+.first-row{
+    font-weight: 800;
+    color: rgba(20, 19, 19, 0.77);
+
+}
+
+.row{
+   font-size: small;
+    color: rgba(20, 19, 19, 0.77);
+
+}
+
+.emoticon{
+   border: solid 1px;
+   border-radius: 50% 50%;
+}
+
+.editorial{
+    content: normal;
+    border-radius: 5px;
+    background-color: #007fff;
+    background-size: auto;
+    color: white;
+    text-align: center;
+    font-size: 5px;
+
+}
+
