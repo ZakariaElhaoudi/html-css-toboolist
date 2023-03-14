@@ -44,7 +44,13 @@ header{
     background-color: white;
 }
 
-/* regole section 1  */
+
+
+/* regole section all */
+
+.section{
+    margin-top: 40px;
+}
 
 #all-button{
     width: 100%;
@@ -73,33 +79,57 @@ header{
     color: white;
 }
 
-/* regole section 2 */
 
 .first-row{
     font-weight: 800;
     color: rgba(20, 19, 19, 0.77);
+    
 
 }
 
 .row{
    font-size: small;
     color: rgba(20, 19, 19, 0.77);
+    margin-top: 15px;
 
 }
 
+.arrow{
+    display: inline-block;
+    transform: rotate(90deg);
+    font-size: 18px;
+}
 .emoticon{
-   border: solid 1px;
-   border-radius: 50% 50%;
+    font-size: 12px;
+    border: 1px solid green;
+    border-radius: 50%;
+    padding: 1px 2px;
+    color: green;
 }
 
 .editorial{
-    content: normal;
-    border-radius: 5px;
+    display: inline-block;
+    width: 65px;
+    height: 25px;
+    border-radius: 10px;
     background-color: #007fff;
     background-size: auto;
     color: white;
     text-align: center;
-    font-size: 5px;
+    font-size: 9px;
+    line-height: 25px;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 3px;
 
+}
+
+.grey{
+    background-color: grey;
+}
+
+.orange{
+    background-color: orange;
 }
 
